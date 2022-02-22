@@ -38,7 +38,7 @@ public class Person implements Serializable {
     @NotNull
     String personal_email;
     @NotNull
-    String city;
+    String population;
     @NotNull
     Boolean active;
     @NotNull
