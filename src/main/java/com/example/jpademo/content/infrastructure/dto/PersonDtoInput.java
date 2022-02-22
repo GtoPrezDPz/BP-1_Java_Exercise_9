@@ -32,7 +32,7 @@ public class PersonDtoInput {
             person.setCompany_email(this.getCompany_email());
             person.setPersonal_email(this.getPersonal_email());
             person.setActive(this.getActive());
-            person.setCity(this.getPopulation());
+            person.setPopulation(this.getPopulation());
             person.setCreated_date(LocalDate.now());
             person.setImage_url(this.getImage_url());
             return person;

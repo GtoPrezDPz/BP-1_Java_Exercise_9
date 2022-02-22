@@ -56,7 +56,7 @@ public class Person implements Serializable {
         setSurname(personDto.getSurname());
         setCompany_email(personDto.getCompany_email());
         setPersonal_email(personDto.getPersonal_email());
-        setCity(personDto.getCity());
+        setPopulation(personDto.getPopulation());
         setActive(personDto.getActive());
         setCreated_date(personDto.getCreatedDate());
         setImage_url(personDto.getImage_url());

@@ -77,7 +77,7 @@ public class PersonService {
             person.setCompany_email(person.getCompany_email());
 
         if (personInputDTO.getPopulation() != null)
-            person.setCity(person.getPopulation());
+            person.setPopulation(person.getPopulation());
 
         if (personInputDTO.getActive() != null)
             person.setActive(person.getActive());
